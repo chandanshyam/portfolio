@@ -1,47 +1,22 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Cloud-Native System for Scalable File Processing',
+    subtitle: 'A GCP-powered microservice architecture for real-time data management.',
+    date: '2024-10-28',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Designed a cloud-native system on GCP with Cloud Run, Pub/Sub, and Firestore to ensure scalability and real-time data processing. '
+      + 'Backend services in NodeJs were containerized with Docker and deployed on Cloud Run, with React handling the frontend. '
+      + 'Implemented role-based access control (RBAC) and fault-tolerant design for security, seamless communication, and workload management.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Campus Event Management System',
+    subtitle: 'An automated solution for managing college events and boosting student participation.',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Developed to streamline the organization of events within a college campus. '
+      + 'This full-stack application is powered by Java Spring Boot for the backend, with RESTful APIs managing event registrations, '
+      + 'attendance tracking, and notifications. React serves as the frontend,'
+      + 'Implemented as part of a college project, the platform successfully facilitated multiple events, increasing participation by 30% within the first semester.',
   },
 ];
 
