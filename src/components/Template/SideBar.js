@@ -9,26 +9,21 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me1.jpeg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Chandan Parameshwarappa</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:chandanparameshwarappa96@gmail.com">Chandan@cparam.com</a>
         </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+      <p> Hi, I&apos;m Chandan. I am a graduate from  Colorado State University . Previously, I
+        was a Senior Software Engineer at <a href="https://fordpro.com/">fordpro</a>,
+        a software engineer at <a href="https://ironmountain.com/">IronMountain</a>.
       </p>
       <ul className="actions">
         <li>
@@ -48,7 +43,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Chandan Parameshwarappa <Link to="/">cparam.com</Link>.
       </p>
     </section>
   </section>
