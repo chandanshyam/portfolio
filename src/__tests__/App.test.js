@@ -25,7 +25,7 @@ describe('renders the app', () => {
   beforeEach(async () => {
     container = document.createElement('div');
     document.body.appendChild(container);
-    await it(async () => {
+    await act(async () => {
       await ReactDOM.createRoot(container).render(<App />);
     });
   });
@@ -50,7 +50,7 @@ describe('renders the app', () => {
       '#header > nav > ul > li:nth-child(1) > a',
     );
     expect(aboutLink).toBeInTheDocument();
-    await it(async () => {
+    await act(async () => {
       await aboutLink.click();
     });
     expect(document.title).toContain('About |');
@@ -80,7 +80,7 @@ describe('renders the app', () => {
       '#header > nav > ul > li:nth-child(3) > a',
     );
     expect(contactLink).toBeInTheDocument();
-    await it(async () => {
+    await act(async () => {
       await contactLink.click();
     });
     expect(document.title).toContain('Projects |');
@@ -93,7 +93,7 @@ describe('renders the app', () => {
       '#header > nav > ul > li:nth-child(4) > a',
     );
     expect(contactLink).toBeInTheDocument();
-    await it(async () => {
+    await act(async () => {
       await contactLink.click();
     });
     expect(document.title).toContain('Stats |');
@@ -108,7 +108,7 @@ describe('renders the app', () => {
       '#header > nav > ul > li:nth-child(5) > a',
     );
     expect(contactLink).toBeInTheDocument();
-    await it(async () => {
+    await act(async () => {
       await contactLink.click();
     });
     expect(document.title).toContain('Contact |');
