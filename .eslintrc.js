@@ -11,8 +11,7 @@ module.exports = {
   parser: '@babel/eslint-parser',
   plugins: ['react'],
   rules: {
-     'indents' : "off", 
-     
+    indents: 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
@@ -52,7 +51,7 @@ module.exports = {
         assignment: true,
         declaration: true,
         return: true,
-      }
+      },
     ],
   },
 };
