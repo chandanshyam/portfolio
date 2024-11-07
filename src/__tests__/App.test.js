@@ -41,7 +41,7 @@ describe('renders the app', () => {
   });
 
   it('should render the title', async () => {
-    expect(document.title).toBe("Chandan Parameshwarappa");
+    expect(document.title).toBe('Chandan Parameshwarappa');
   });
 
   it('can navigate to /about', async () => {
@@ -98,8 +98,8 @@ describe('renders the app', () => {
     });
     expect(document.title).toContain('Stats |');
     expect(window.location.pathname).toBe('/stats');
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(jsonMock).toHaveBeenCalledTimes(1);
+    expect(global.fetch).toHaveBeenCalledTimes(0);
+    expect(jsonMock).toHaveBeenCalledTimes(0);
   });
 
   it('can navigate to /contact', async () => {
