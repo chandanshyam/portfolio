@@ -18,7 +18,7 @@ const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
   // basename={PUBLIC_URL}
-  <BrowserRouter basename="/personal-site">
+  <BrowserRouter>
     <Suspense fallback={<Main />}>
       <Routes>
         <Route path="/" element={<Index />} />
