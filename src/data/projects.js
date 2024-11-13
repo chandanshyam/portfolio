@@ -18,6 +18,15 @@ const data = [
       + 'attendance tracking, and notifications. React serves as the frontend,'
       + 'Implemented as part of a college project, the platform successfully facilitated multiple events, increasing participation by 30% within the first semester.',
   },
+  {
+    title: 'Campus Event Management System',
+    subtitle: 'An automated solution for managing college events and boosting student participation.',
+    desc:
+      'Developed to streamline the organization of events within a college campus. '
+      + 'This full-stack application is powered by Java Spring Boot for the backend, with RESTful APIs managing event registrations, '
+      + 'attendance tracking, and notifications. React serves as the frontend,'
+      + 'Implemented as part of a college project, the platform successfully facilitated multiple events, increasing participation by 30% within the first semester.',
+  },
 ];
 
 export default data;

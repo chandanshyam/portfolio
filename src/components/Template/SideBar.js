@@ -14,7 +14,7 @@ const SideBar = () => (
       <header>
         <h2>Chandan Parameshwarappa</h2>
         <p>
-          <a href="mailto:chandanparameshwarappa96@gmail.com">Chandan@cparam.com</a>
+          <a href="mailto:chandanparameshwarappa96@gmail.com">Chandan@cparam.me</a>
         </p>
       </header>
     </section>
@@ -43,7 +43,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Chandan Parameshwarappa <Link to="/">cparam.com</Link>.
+        &copy; Chandan Parameshwarappa <Link to="/">cparam.me</Link>.
       </p>
     </section>
   </section>
