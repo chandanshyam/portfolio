@@ -10,12 +10,18 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'Well You Made It Till Here',
-  'Better Hire me',
-  'uhhh Java',
-  'The only thing that ever sat its way to success was a hen',
-  'You cant have a million-dollar dream with a minimum wage work ethic',
+  "Code sleeps, bugs creep!",
+  "Hire me before my coffee runs out!",
+  "404: Motivation not found",
+  "Ctrl + C, Ctrl + V - It's a lifestyle!",
+  "When in doubt, blame it on JavaScript!",
+  "Debugging: My favorite way to spend an afternoon",
+  "I'm not lazy; I'm on energy-saving mode",
+  "If it compiles, ship it!",
+  "May the source be with you",
+  "Currently adding 'Procrastination Expert' to my resume",
 ];
+
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
