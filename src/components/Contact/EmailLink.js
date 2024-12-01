@@ -10,18 +10,17 @@ const validateText = (text) => {
 };
 
 const messages = [
-  "Code sleeps, bugs creep!",
-  "Hire me before my coffee runs out!",
-  "404: Motivation not found",
-  "Ctrl + C, Ctrl + V - It's a lifestyle!",
-  "When in doubt, blame it on JavaScript!",
-  "Debugging: My favorite way to spend an afternoon",
-  "I'm not lazy; I'm on energy-saving mode",
-  "If it compiles, ship it!",
-  "May the source be with you",
-  "Currently adding 'Procrastination Expert' to my resume",
+  'Code sleeps, bugs creep!',
+  'Hire me before my coffee runs out!',
+  '404: Motivation not found',
+  'Ctrl + C, Ctrl + V - It is a lifestyle!',
+  'When in doubt, blame it on JavaScript!',
+  'Debugging: My favorite way to spend an afternoon',
+  'I am not lazy; I am on energy-saving mode',
+  'If it compiles, ship it!',
+  'May the source be with you',
+  'Currently adding Procrastination Expert to my resume',
 ];
-
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
