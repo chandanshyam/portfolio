@@ -75,7 +75,7 @@ const EmailLink = ({ loopMessage }) => {
 
   return (
     <div
-      className='inline-container'
+      className="inline-container"
       style={validateText(message) ? {} : { color: 'red' }}
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => idx < messages.length && setIsActive(true)}
