@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 // Validates the first half of an email address.
 const validateText = (text) => {
-  // NOTE: Passes RFC 5322 but not tested on google's standard.
+  // NOTE: Passes RFC 5322 but not tested on Google's standard.
   // eslint-disable-next-line no-useless-escape
   const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
   return re.test(text) || text.length === 0;
@@ -36,13 +36,13 @@ const useInterval = (callback, delay) => {
       }, delay);
       return () => clearInterval(id);
     }
-    return () => {}; // pass linter
+    return undefined;
   }, [delay]);
 };
 
 const EmailLink = ({ loopMessage }) => {
   const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
+  const delay = 50; // tick length in ms
 
   const [idx, updateIter] = useState(0); // points to current message
   const [message, updateMessage] = useState(messages[idx]);
@@ -75,16 +75,16 @@ const EmailLink = ({ loopMessage }) => {
 
   return (
     <div
-      className="inline-container"
-      style={validateText(message) ? {} : { color: "red" }}
+      className='inline-container'
+      style={validateText(message) ? {} : { color: 'red' }}
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => idx < messages.length && setIsActive(true)}
     >
       <a
         href={
           validateText(message)
-            ? "mailto:chandanparameshwarappa96@gmail.com"
-            : ""
+            ? 'mailto:chandanparameshwarappa96@gmail.com'
+            : ''
         }
       >
         <span>{message}</span>
