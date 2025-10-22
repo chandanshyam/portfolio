@@ -57,7 +57,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
-          PUBLIC_URL: "https://cparam.me"
+          PUBLIC_URL: ""
           CI: false
 
       - name: Verify build output
