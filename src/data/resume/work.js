@@ -13,6 +13,29 @@
  */
 const work = [
   {
+    name: 'The Donovan\'s Venom 501c3',
+    position: 'Back End Developer',
+    startDate: '2025-07-01',
+    highlights: [
+      'Led a team of five backend developers to ensure high-quality delivery of MVP releases.',
+      'Owned sprint operations by creating and assigning stories, estimating story points, and tracking progress.',
+      'Implemented PayPal integration for seamless payment processing during checkout and membership purchases.',
+      'Developed authentication middleware to enforce role-based access for members and guests.',
+    ],
+  },
+  {
+    name: 'FreshFrosh LLC',
+    position: 'Software Engineer (Volunteer)',
+    startDate: '2025-02-01',
+    endDate: '2025-07-30',
+    highlights: [
+      'Developed an AI resume parser using Firebase Functions and OpenAI API, improving processing efficiency and accuracy.',
+      'Implemented Google OAuth with Firebase Authentication, enhancing user security and maintainability.',
+      'Engineered chat persistence for a Node.js chatbot using Firebase Firestore, enabling real-time message storage and retrieval.',
+      'Applied GCP IAM policies and managed secrets via Secret Manager, reducing unauthorized access incidents by 40%.',
+    ],
+  },
+  {
     name: 'FordPro',
     position: 'Software Engineer',
     startDate: '2023-02-01',
