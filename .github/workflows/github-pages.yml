@@ -53,8 +53,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build and generate static files
-        run: npm run predeploy:ci
+      - name: Build React application
+        run: npm run build
         env:
           NODE_ENV: production
           PUBLIC_URL: "https://cparam.me"
@@ -68,7 +68,7 @@ jobs:
           fi
           echo "Build successful. Generated $(find build -type f | wc -l) files."
           du -sh build/
-          
+
       - name: Ensure .nojekyll exists in output
         run: |
           if [ ! -f "build/.nojekyll" ]; then
