@@ -1,7 +1,6 @@
 /**
  * @typedef {Object} Position
  * Conforms to https://jsonresume.org/schema/
- *
  * @property {string} name - Name of the company
  * @property {string} position - Position title
  * @property {string} url - Company website
