@@ -76,4 +76,4 @@ jobs:
         uses: actions/deploy-pages@v2
 
       - name: Set Git Remote URL
-        run: git remote set-url origin "https://github.com/chandanshyam/personal-site.git"
+        run: git remote set-url origin "https://github.com/chandanshyam/portfolio.git"
