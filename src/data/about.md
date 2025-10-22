@@ -17,9 +17,11 @@ innovative solutions that enhance business operations and drive efficiency.
 
   # Work Experiences 
 
-  - **FordPro**, Software Engineer  &nbsp; &nbsp;Feb 2023 -Aug 2023 
-  - **IronMountain**, Java Software Engineer   &nbsp;&nbsp; Sep 2019 - Jan 2023
-  - __IronMountain__, Software Intern, &nbsp; &nbsp; Summer 2019
+  - **The Donovan's Venom 501c3**, Back End Developer  &nbsp; &nbsp;Jul 2025 - Present 
+  - **FreshFrosh LLC**, Software Engineer (Volunteer)  &nbsp; &nbsp;Apr 2025 - Sep 2025 
+  - **FordPro**, Software Engineer  &nbsp; &nbsp;Feb 2023 - Aug 2023 
+  - **IronMountain**, Java Software Engineer   &nbsp;&nbsp; Sep 2021 - Jan 2023
+  - **IronMountain**, Software Engineer Associate   &nbsp;&nbsp; Sep 2019 - Jan 2021
 
 # I Like
 

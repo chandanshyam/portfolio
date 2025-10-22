@@ -21,9 +21,10 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p> Hi, I&apos;m Chandan. I am a graduate from  Colorado State University . Previously, I
-        was a Senior Software Engineer at <a href="https://fordpro.com/">fordpro</a>,
-        a software engineer at <a href="https://ironmountain.com/">IronMountain</a>.
+      <p> Hi, I&apos;m Chandan. I am a graduate from Colorado State University. Currently, I
+        am a Back End Developer at <a href="https://thedonovansvenom.org">The Donovan&apos;s Venom 501c3</a>.
+        Previously, I was a Software Engineer at <a href="https://freshfrosh.com">FreshFrosh LLC</a>,
+        <a href="https://fordpro.com/">FordPro</a>, and <a href="https://ironmountain.com/">IronMountain</a>.
       </p>
       <ul className="actions">
         <li>

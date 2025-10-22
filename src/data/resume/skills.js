@@ -134,6 +134,46 @@ const skills = [
     competency: 4,
     category: ['Databases', 'Web Development'],
   },
+  {
+    title: 'PostgreSQL',
+    competency: 4,
+    category: ['Databases', 'Web Development'],
+  },
+  {
+    title: 'Firebase',
+    competency: 4,
+    category: ['Platforms', 'Cloud', 'Web Development'],
+  },
+  {
+    title: 'Firestore',
+    competency: 4,
+    category: ['Databases', 'Cloud', 'Web Development'],
+  },
+  {
+    title: 'Microsoft Azure',
+    competency: 3,
+    category: ['Platforms', 'Cloud', 'Web Development'],
+  },
+  {
+    title: 'PayPal Integration',
+    competency: 4,
+    category: ['Tools', 'Web Development'],
+  },
+  {
+    title: 'Bun.js',
+    competency: 3,
+    category: ['Tools', 'Javascript', 'Web Development'],
+  },
+  {
+    title: 'Drizzle ORM',
+    competency: 3,
+    category: ['Frameworks', 'Databases', 'Web Development'],
+  },
+  {
+    title: 'OpenAI API',
+    competency: 4,
+    category: ['Tools', 'Web Development'],
+  },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be === to the
