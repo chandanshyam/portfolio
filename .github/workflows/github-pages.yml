@@ -24,8 +24,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    environment: github-pages
+    timeout-minutes: 15
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -40,9 +39,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          # Automatically inject basePath in Next.js config
-          static_site_generator: next
 
       - name: Cache dependencies
         uses: actions/cache@v4
@@ -50,41 +46,39 @@ jobs:
           path: |
             ~/.npm
             node_modules
-            .next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          key: ${{ runner.os }}-react-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+            ${{ runner.os }}-react-${{ hashFiles('**/package-lock.json') }}-
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with Next.js
-        run: npm run build
+      - name: Build with Create React App
+        run: npm run predeploy
         env:
           NODE_ENV: production
-          PUBLIC_URL: ""
-          # Use environment variable for GA tracking ID
-          # NEXT_PUBLIC_GA_TRACKING_ID: ${{ vars.NEXT_PUBLIC_GA_TRACKING_ID }}
+          PUBLIC_URL: "https://cparam.me"
+          CI: false
 
       - name: Verify build output
         run: |
-          if [ ! -d "out" ]; then
-            echo "Error: 'out' directory not found. Static export failed."
+          if [ ! -d "build" ]; then
+            echo "Error: 'build' directory not found. Build failed."
             exit 1
           fi
-          echo "Build successful. Generated $(find out -type f | wc -l) files."
-          du -sh out/
+          echo "Build successful. Generated $(find build -type f | wc -l) files."
+          du -sh build/
           
       - name: Ensure .nojekyll exists in output
         run: |
-          if [ ! -f "out/.nojekyll" ]; then
-            cp public/.nojekyll out/.nojekyll || touch out/.nojekyll
+          if [ ! -f "build/.nojekyll" ]; then
+            touch build/.nojekyll
           fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./build
 
   # Deployment job
   deploy:

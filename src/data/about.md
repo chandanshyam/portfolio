@@ -15,9 +15,9 @@ innovative solutions that enhance business operations and drive efficiency.
   University Visvesvaraya College of Engineering  &nbsp; &nbsp;(Aug 2014 - Jul 2019)
 
 
-  # Work Experiences 
+# Work Experiences 
 
-  - **The Donovan's Venom 501c3**, Back End Developer  &nbsp; &nbsp;Jul 2025 - Present 
+  - **The Donovan's Venom 501c3**, Back End Developer(Volunteer)  &nbsp; &nbsp;Jul 2025 - Present 
   - **FreshFrosh LLC**, Software Engineer (Volunteer)  &nbsp; &nbsp;Apr 2025 - Sep 2025 
   - **FordPro**, Software Engineer  &nbsp; &nbsp;Feb 2023 - Aug 2023 
   - **IronMountain**, Java Software Engineer   &nbsp;&nbsp; Sep 2021 - Jan 2023
