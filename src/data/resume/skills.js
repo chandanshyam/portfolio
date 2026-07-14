@@ -1,178 +1,181 @@
 const skills = [
+  // Languages
   {
     title: 'Java',
     competency: 5,
-    category: ['Languages', 'Web Development'],
+    category: ['Languages', 'Backend'],
   },
   {
-    title: 'C',
-    competency: 3,
-    category: ['Languages'],
+    title: 'TypeScript',
+    competency: 5,
+    category: ['Languages', 'Frontend'],
   },
   {
-    title: 'C++',
-    competency: 1,
-    category: ['Languages'],
-  },
-  {
-    title: 'C#',
-    competency: 4,
-    category: ['Languages', 'Web Development'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Python',
-    competency: 3,
-    category: ['Languages'],
+    title: 'JavaScript',
+    competency: 5,
+    category: ['Languages', 'Frontend'],
   },
   {
     title: 'SQL',
     competency: 4,
-    category: ['Languages', 'Databases', 'Web Development'],
+    category: ['Languages', 'Databases'],
   },
   {
-    title: 'JavaScript',
+    title: 'Python',
     competency: 4,
-    category: ['Languages', 'Web Development'],
+    category: ['Languages', 'AI/ML'],
   },
+  // Backend
   {
-    title: 'React',
-    competency: 3,
-    category: ['Frameworks', 'Javascript', 'Web Development'],
-  },
-  {
-    title: 'Next.js',
-    competency: 2,
-    category: ['Frameworks', 'Javascript', 'Web Development'],
-  },
-  {
-    title: 'EXTJS',
-    competency: 3,
-    category: ['Frameworks', 'Javascript', 'Web Development'],
-  },
-  {
-    title: 'Spring',
-    competency: 4,
-    category: ['Frameworks', 'Web Development'],
+    title: 'Spring Boot',
+    competency: 5,
+    category: ['Backend'],
   },
   {
     title: 'Hibernate',
-    competency: 3,
-    category: ['Frameworks', 'Web Development'],
-  },
-  {
-    title: 'Open Telemetry',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Tekton',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'GIT',
     competency: 4,
-    category: ['Tools'],
+    category: ['Backend', 'Databases'],
   },
   {
-    title: 'Datadog',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'SonarQube',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'FOSSA',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Apache Maven',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Production Support Tools',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Linux',
+    title: 'Node.js',
     competency: 4,
-    category: ['Platforms', 'Web Development'],
+    category: ['Backend'],
   },
   {
-    title: 'Google Cloud Platform (GCP)',
+    title: 'REST APIs',
+    competency: 5,
+    category: ['Backend'],
+  },
+  // Frontend
+  {
+    title: 'React',
     competency: 4,
-    category: ['Platforms', 'Cloud', 'Web Development'],
+    category: ['Frontend'],
   },
   {
-    title: 'RedHat OpenShift',
-    competency: 3,
-    category: ['Platforms', 'Cloud', 'Web Development'],
+    title: 'Next.js',
+    competency: 4,
+    category: ['Frontend'],
   },
+  {
+    title: 'Angular',
+    competency: 3,
+    category: ['Frontend'],
+  },
+  // Databases
+  {
+    title: 'PostgreSQL',
+    competency: 5,
+    category: ['Databases'],
+  },
+  {
+    title: 'MSSQL',
+    competency: 4,
+    category: ['Databases'],
+  },
+  {
+    title: 'Oracle',
+    competency: 3,
+    category: ['Databases'],
+  },
+  {
+    title: 'Prisma',
+    competency: 4,
+    category: ['Databases', 'Backend'],
+  },
+  {
+    title: 'Knex',
+    competency: 3,
+    category: ['Databases', 'Backend'],
+  },
+  // Cloud & DevOps
   {
     title: 'Docker',
-    competency: 3,
-    category: ['Platforms', 'Tools', 'Cloud'],
+    competency: 4,
+    category: ['Cloud & DevOps'],
   },
   {
     title: 'Kubernetes',
-    competency: 2,
-    category: ['Platforms', 'Cloud', 'Tools'],
-  },
-  {
-    title: 'Database Development',
-    competency: 4,
-    category: ['Databases', 'Web Development'],
-  },
-  {
-    title: 'PostgreSQL',
-    competency: 4,
-    category: ['Databases', 'Web Development'],
-  },
-  {
-    title: 'Firebase',
-    competency: 4,
-    category: ['Platforms', 'Cloud', 'Web Development'],
-  },
-  {
-    title: 'Firestore',
-    competency: 4,
-    category: ['Databases', 'Cloud', 'Web Development'],
-  },
-  {
-    title: 'Microsoft Azure',
     competency: 3,
-    category: ['Platforms', 'Cloud', 'Web Development'],
+    category: ['Cloud & DevOps'],
   },
   {
-    title: 'PayPal Integration',
+    title: 'AWS',
     competency: 4,
-    category: ['Tools', 'Web Development'],
+    category: ['Cloud & DevOps'],
   },
   {
-    title: 'Bun.js',
-    competency: 3,
-    category: ['Tools', 'Javascript', 'Web Development'],
+    title: 'GCP',
+    competency: 4,
+    category: ['Cloud & DevOps'],
   },
   {
-    title: 'Drizzle ORM',
-    competency: 3,
-    category: ['Frameworks', 'Databases', 'Web Development'],
+    title: 'GitHub Actions',
+    competency: 4,
+    category: ['Cloud & DevOps'],
   },
+  {
+    title: 'OpenShift',
+    competency: 3,
+    category: ['Cloud & DevOps'],
+  },
+  {
+    title: 'Terraform',
+    competency: 3,
+    category: ['Cloud & DevOps'],
+  },
+  {
+    title: 'Kafka',
+    competency: 4,
+    category: ['Cloud & DevOps', 'Backend'],
+  },
+  // Observability
+  {
+    title: 'OpenTelemetry',
+    competency: 4,
+    category: ['Observability'],
+  },
+  {
+    title: 'Datadog',
+    competency: 4,
+    category: ['Observability'],
+  },
+  {
+    title: 'CloudWatch',
+    competency: 3,
+    category: ['Observability'],
+  },
+  // Testing
+  {
+    title: 'JUnit',
+    competency: 4,
+    category: ['Testing'],
+  },
+  {
+    title: 'Jest',
+    competency: 4,
+    category: ['Testing'],
+  },
+  {
+    title: 'Playwright',
+    competency: 3,
+    category: ['Testing'],
+  },
+  // AI/ML
   {
     title: 'OpenAI API',
     competency: 4,
-    category: ['Tools', 'Web Development'],
+    category: ['AI/ML'],
+  },
+  {
+    title: 'Google Gemini API',
+    competency: 4,
+    category: ['AI/ML'],
+  },
+  {
+    title: 'Claude Code / MCP',
+    competency: 4,
+    category: ['AI/ML'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 

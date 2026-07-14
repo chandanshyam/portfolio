@@ -11,17 +11,16 @@ innovative solutions that enhance business operations and drive efficiency.
 - **M.S. in Computer Information Systems**<br>
   Colorado State University, Fort Collins &nbsp; &nbsp;(Aug 2023 - Dec 2024)
 
-- **B.E. in Electronics and Communication Engineering**<br>
-  University Visvesvaraya College of Engineering  &nbsp; &nbsp;(Aug 2014 - Jul 2019)
+- **B.Tech. in Electrical Engineering, Computer Engineering**<br>
+  University Visvesvararya College of Engineering  &nbsp; &nbsp;(Aug 2014 - Jul 2019)
 
 
 # Work Experiences 
 
-  - **The Donovan's Venom 501c3**, Back End Developer(Volunteer)  &nbsp; &nbsp;Jul 2025 - Present 
-  - **FreshFrosh LLC**, Software Engineer (Volunteer)  &nbsp; &nbsp;Apr 2025 - Sep 2025 
-  - **FordPro**, Software Engineer  &nbsp; &nbsp;Feb 2023 - Aug 2023 
-  - **IronMountain**, Java Software Engineer   &nbsp;&nbsp; Sep 2021 - Jan 2023
-  - **IronMountain**, Software Engineer Associate   &nbsp;&nbsp; Sep 2019 - Jan 2021
+  - **BusToShow**, Full Stack Software Engineer  &nbsp; &nbsp;Dec 2025 - Present 
+  - **The Donovan's Venom Non Profit (Contract)**, Software Engineer Lead  &nbsp; &nbsp;Mar 2025 - Dec 2025 
+  - **Ford Motors Pvt. Ltd.**, Site Reliability Engineer  &nbsp; &nbsp;Feb 2023 - Aug 2023 
+  - **Iron Mountain India Pvt. Ltd.**, Full Stack Java Developer   &nbsp;&nbsp; Sep 2019 - Jan 2023
 
 # I Like
 

@@ -22,9 +22,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p> Hi, I&apos;m Chandan. I am a graduate from Colorado State University. Currently, I
-        am a Back End Developer at <a href="https://thedonovansvenom.org">The Donovan&apos;s Venom 501c3</a>.
-        Previously, I was a Software Engineer at <a href="https://freshfrosh.com">FreshFrosh LLC</a>,
-        <a href="https://fordpro.com/">FordPro</a>, and <a href="https://ironmountain.com/">IronMountain</a>.
+        am a Full Stack Software Engineer at <a href="https://bustoshow.org">BusToShow</a>.
+        Previously, I worked at <a href="https://thedonovansvenom.org">The Donovan&apos;s Venom</a>,
+        <a href="https://www.ford.com/">Ford</a>, and <a href="https://ironmountain.com/">Iron Mountain</a>.
       </p>
       <ul className="actions">
         <li>
